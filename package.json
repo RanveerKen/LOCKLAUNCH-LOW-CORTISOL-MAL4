@@ -1,0 +1,14 @@
+{
+  "name": "locklaunch-low-cortisol-mal4",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w @launchlock/server",
+    "build:server": "npm run build -w @launchlock/server",
+    "test:domain": "npm run test -w @launchlock/domain"
+  }
+}
